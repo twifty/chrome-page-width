@@ -1,0 +1,20 @@
+{
+   "author": "Owen Parry",
+   "content_scripts": [ {
+      "js": [ "main.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Change Page width with Alt + Mouse wheel",
+   "icons": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+   },
+   "incognito": "spanning",
+   "manifest_version": 2,
+   "minimum_chrome_version": "26",
+   "name": "Tab Wheel Width Adjust",
+   "permissions": [ "\u003Call_urls>" ],
+   "version": "0.1"
+}
